@@ -6,7 +6,7 @@ Gem::Specification.new do |a|
     a.description = "ghasedak.io is a provider of mass SMS sending service in Iran and this is the ruby gem I'm making for them to make every single part of coding and working with their service fun :)"
     a.authors = ["Muhammadreza Haghiri"]
     a.email = 'haghiri75@gmail.com'
-    a.files = ["lib/ghasedak.rb"]
+    a.files = ["lib/ghasedak.rb", "Gemfile"]
     a.homepage = 
      'http://gitlab.com/prp-e/ghasedak' 
     a.license = 'MIT'

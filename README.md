@@ -26,3 +26,26 @@ require 'ghasedak'
 
 q = GhasedakApi.new(api_key, linenumber) # Both of these, have default values. api_key is being read from ghasedak_key environment variable and line number is set to 10008566 which is ghasedak's default number. 
 ``` 
+
+### Send simple SMS 
+
+```ruby 
+
+q.send_simple_sms(receptor, message) # receptor is a valid Iranian number, and message is a single string. 
+
+```
+
+#### Response 
+
+It will return the status code of your request.  
+
+### Send pair SMS
+
+```ruby 
+
+q.send_pair_sms(receptors, message) # receptors variable is an array of numbers, message is a single string. 
+```
+
+#### Response 
+
+It will return the status code of your request. 
